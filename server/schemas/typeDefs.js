@@ -15,6 +15,8 @@ const typeDefs = gql`
         username: String!
         email: String!
         password: String!
+        bookCount: Number!
+        savedBooks: [Book]!
     }
 
     type Book {
